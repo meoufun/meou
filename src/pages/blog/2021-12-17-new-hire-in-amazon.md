@@ -1,9 +1,9 @@
 ---
 templateKey: blog-post
-title: New Hire in Amazon
+title: As a New Hire in Amazon for almost half a year
 date: 2021-12-17T03:37:43.528Z
 description: New Hire in Amazon
-featuredpost: true
+featuredpost: false
 featuredimage: /img/amazon-badge.png
 tags:
   - Amazon
@@ -23,6 +23,8 @@ tags:
 ### 整体设计
 
 Match 页面路由请求后，直出 js 模板，在前端获取 js 模板并注入相应数据插入到页面目标 DOM 节点中。当然这一套完全在适应 Amazon UI 只有 ssr 组件这一限制下做出的。整体就是渲染了 ssr 组件，实则是 csr 体验。
+
+![](/img/fe-uml.png)
 
 ### 通信机制
 
